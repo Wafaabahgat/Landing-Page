@@ -124,6 +124,46 @@
   .testimonial-author {
     margin-bottom: 0px;
   }
+
+  /* Footer */
+  .footer-left,
+  .footer-right {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .footer-links {
+    justify-content: center;
+    gap: 20px;
+    font-size: 14px;
+    flex-wrap: wrap;
+  }
+
+  .subscribe-form {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .email-input {
+    width: 100%;
+  }
+
+  .subscribe-button {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-terms {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
 }
 
 @media (max-width: 1170px) {
@@ -347,6 +387,35 @@
   .testimonial {
     margin-top: 0px;
   }
+
+  /* Footer */
+  .footer {
+    padding: 2rem 5%;
+  }
+
+  .footer-links {
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+
+  .footer-logo img {
+    width: 150px;
+    display: flex;
+    align-items: start;
+  }
+  .divider {
+    margin: 25px 0;
+  }
+  .email-input {
+    font-size: 14px;
+  }
+  .footer-terms{
+  margin-bottom: 20px;
+  }
+  .subscribe-button {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 818px) {
@@ -488,7 +557,41 @@
   .testimonial-card h3 {
     font-size: 12px;
   }
+
+  /* Footer */
+  .footer {
+    padding: 1.5rem 4%;
+  }
+
+  .footer-links {
+    /* flex-direction: column; */
+    align-items: center;
+    gap: 10px;
+  }
+
+  .footer-right p {
+    font-size: 14px;
+  }
+ 
+  .email-input {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+
+  .subscribe-button {
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  .footer-bottom {
+    font-size: 10px;
+  }
+
+  .footer-terms {
+    gap: 5px;
+  }
 }
+
 @media (min-width: 380px) {
   .solar .content .grid1 {
     padding-right: 10px;
