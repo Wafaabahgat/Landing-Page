@@ -1,0 +1,526 @@
+@media (max-width: 900px) {
+  .header .logo {
+    max-width: 100px;
+  }
+
+  .header .navbar {
+    flex: unset;
+  }
+
+  .header-content .navbar li,
+  .header-content .navbar li a {
+    padding: 5px 15px;
+    font-size: 16px;
+  }
+  .header .call {
+    text-align: center;
+    border-top: 1px solid #ffffff;
+    padding-top: 15px;
+  }
+  .header .call h2 {
+    font-size: 20px;
+  }
+
+  .header .call h4 {
+    font-size: 16px;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .navbar {
+    display: none;
+    flex-direction: column;
+    background-color: #b6cfcc;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 20;
+  }
+
+  .navbar.active {
+    display: flex;
+  }
+
+  .navbar li {
+    text-align: center;
+    margin: 5px 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header-content .navbar li a {
+    padding: 10px 15px;
+    font-size: 15px;
+  }
+
+  .header .call h2 {
+    font-size: 18px;
+  }
+
+  .header .call h4 {
+    font-size: 15px;
+  }
+
+  /* repairs */
+  .repairs {
+    min-height: 60vh;
+  }
+
+  .repairs .content {
+    padding: 32px;
+    max-width: 40rem;
+  }
+
+  .repairs .content h3 {
+    font-size: 36px;
+  }
+
+  .repairs .content p {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  /* values */
+  .values .content h3 {
+    font-size: 35px;
+  }
+  .values .content .txt {
+    font-size: 15px;
+    padding: 0.8rem 0;
+  }
+  .values .content .content-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* testimonial */
+  .testimonial .content {
+    flex-direction: column;
+  }
+  .testimonial-text {
+    min-width: 0px;
+    padding: 0 5px;
+  }
+  .testimonial-text h2 {
+    font-size: 40px;
+    margin-bottom: 18px;
+    margin-top: 18px;
+    width: 100%;
+  }
+  .testimonial-text p {
+    font-size: 16px;
+    padding-left: 0px;
+  }
+  .testimonial-card p {
+    font-size: 22px;
+    margin-bottom: 45px;
+  }
+  .testimonial-card h3 {
+    font-size: 16px;
+    margin-bottom: 35px;
+  }
+  .testimonial-author {
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 1170px) {
+  /* solar */
+  .solar .content h3 {
+    font-size: 40px;
+  }
+  .solar .content .txt {
+    font-size: 15px;
+    padding: 0.8rem 0;
+  }
+  .solar .content .content-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .solar .content .group1 p {
+    max-width: 300px;
+  }
+
+  /* energy */
+  .energy .content {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 10px;
+  }
+  .energy .intro {
+    width: 100%;
+    grid-column: span 1;
+  }
+  .energy .intro h1 {
+    font-size: 36px;
+  }
+  .energy .intro p {
+    font-size: 16px;
+  }
+
+  /* testimonial */
+  /* .testimonial-card p {
+    font-size: 24px;
+    margin-bottom: 80px;
+  }*/
+  .author-info h4 {
+    font-size: 13px;
+    margin-bottom: 6px;
+  }
+  .author-info p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* Hero */
+  .hero .content {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .hero .content h3 {
+    font-size: 30px;
+  }
+
+  .hero .content p {
+    font-size: 16px;
+  }
+
+  .hero .btn .btn-one,
+  .hero .btn .btn-two {
+    padding: 10px 20px;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  /* Installers  */
+  .about .row {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .about .row .img-container,
+  .about .row .content {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .about .row .content h3 {
+    font-size: 24px;
+  }
+
+  .about .row .content .txt {
+    font-size: 13px;
+    /* padding: 0.5rem; */
+  }
+
+  .about .row .content .num p {
+    font-size: 15px;
+  }
+  .about .row .content .txt {
+    margin: 5px 0;
+  }
+  .about .row .content .num {
+    margin-top: 10px;
+  }
+
+  /* power */
+  .power .content {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .power .content h3 {
+    font-size: 30px;
+  }
+
+  .power .content p {
+    font-size: 17px;
+  }
+
+  /* solar */
+  .solar .content {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .solar .content h3 {
+    font-size: 32px;
+  }
+  .solar .content .txt {
+    font-size: 14px;
+    padding: 0.5rem 0;
+  }
+  .solar .content .group1 p {
+    font-size: 14px;
+    max-width: 280px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+  }
+  .solar .content .content-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .solar .content .group1 h2 {
+    margin-top: 10px;
+  }
+
+  /* repairs */
+  .repairs {
+    min-height: 50vh;
+  }
+
+  .repairs .content {
+    padding: 24px;
+    max-width: 35rem;
+  }
+
+  .repairs .content h3 {
+    font-size: 27px;
+    margin-bottom: 16px;
+  }
+
+  .repairs .content p {
+    font-size: 15px;
+    line-height: 1.4;
+  }
+
+  /* values */
+  .values .content h3 {
+    font-size: 28px;
+  }
+  .values .content .txt {
+    font-size: 14px;
+    padding: 0.5rem 0;
+  }
+  .values .content .group1 p {
+    font-size: 14px;
+  }
+  .values .content .content-grid {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 15px;
+  }
+  .values .content {
+    margin-top: 0px;
+  }
+
+  /* energy */
+  .energy .intro {
+    max-width: 100%;
+  }
+  .energy .intro h1 {
+    font-size: 32px;
+  }
+  .energy .intro p {
+    font-size: 14px;
+  }
+
+  /* testimonial */
+  .testimonial-card h3 {
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+  .testimonial-card p {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  .author-info h4 {
+    font-size: 12px;
+  }
+  .author-info p {
+    font-size: 12px;
+  }
+  .testimonial-flex {
+    align-items: center;
+  }
+  .testimonial-text h2 {
+    font-size: 30px;
+    margin-bottom: 14px;
+    margin-top: 14px;
+  }
+  .testimonial-text p {
+    font-size: 14px;
+  }
+  .testimonial .content {
+    gap: 20px;
+    padding: 1rem 4%;
+  }
+  .testimonial {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 818px) {
+  .energy .cards {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .energy .card {
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+}
+
+@media (max-width: 590px) {
+  /* repairs */
+
+  .repairs .content {
+    padding: 16px;
+    max-width: 90%;
+  }
+  .repairs .content h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+  }
+  .repairs .content p {
+    font-size: 13px;
+    line-height: 1.3;
+  }
+
+  /*testimonial */
+  .testimonial-text h2 {
+    font-size: 25px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+  }
+  .testimonial-flex {
+    flex-direction: column;
+    align-items: start;
+  }
+  .testimonial-card {
+    padding: 20px;
+  }
+  .testimonial-circle .circle1 {
+    width: 5px;
+    height: 5px;
+  }
+  .testimonial-circle .circle2 {
+    width: 5px;
+    height: 5px;
+  }
+}
+
+@media (max-width: 420px) {
+  /* hero */
+  .hero .content,
+  .power .content {
+    padding: 0px;
+  }
+  .hero .btn {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero .btn {
+    gap: 10px;
+  }
+  .hero .btn .btn-one,
+  .hero .btn .btn-two {
+    margin-bottom: 1px;
+  }
+
+  /* solar */
+  .solar .content {
+    margin-top: 20px;
+  }
+  .solar .content h3 {
+    font-size: 24px;
+  }
+  .solar .content .txt {
+    font-size: 12px;
+    padding: 0.3rem 0;
+  }
+  .solar .content .content-grid {
+    gap: 34px;
+    margin-top: 15px;
+  }
+  .solar .content .group1 p {
+    font-size: 12px;
+    max-width: 100%;
+    margin-top: 14px;
+    margin-bottom: 14px;
+  }
+
+  /* values */
+  .values .content {
+    margin-top: 0px;
+  }
+  .values .content h3 {
+    font-size: 20px;
+  }
+  .solar .content .txt {
+    font-size: 12px;
+    padding: 0.3rem 0;
+  }
+  .values .content .content-grid {
+    gap: 16px;
+    margin-top: 20px;
+  }
+  .values .content .group1 p {
+    font-size: 12px;
+  }
+
+  /* energy */
+  .energy .intro h1 {
+    font-size: 28px;
+  }
+  .energy .intro p {
+    font-size: 12px;
+  }
+  .energy .card a {
+    font-size: 14px;
+  }
+
+  /*testimonial */
+  .testimonial-text h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .testimonial-text p {
+    font-size: 12px;
+  }
+  .testimonial .content {
+    gap: 13px;
+  }
+  .testimonial-card p {
+    font-size: 13px;
+  }
+  .testimonial-card h3 {
+    font-size: 12px;
+  }
+}
+@media (min-width: 380px) {
+  .solar .content .grid1 {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* hero */
+  .hero .content {
+    max-width: 80%;
+  }
+
+  .hero .content h3 {
+    font-size: 40px;
+  }
+
+  .hero .content p {
+    font-size: 17px;
+  }
+
+  .hero .btn .btn-one,
+  .hero .btn .btn-two {
+    padding: 12px 22px;
+    font-size: 14px;
+  }
+
+  /* Installers  */
+  .about .row {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .about .row .content {
+    flex: 1 1 15rem;
+  }
+}
