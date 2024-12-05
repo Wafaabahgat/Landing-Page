@@ -186,10 +186,11 @@
   .energy .content {
     grid-template-columns: repeat(2, 1fr);
     margin-top: 10px;
+    gap: 20px;
   }
   .energy .intro {
     width: 100%;
-    grid-column: span 1;
+    /* grid-column: span 2; */
   }
   .energy .intro h1 {
     font-size: 36px;
@@ -282,7 +283,7 @@
   /* solar */
   .solar .content {
     margin-top: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 25px;
   }
   .solar .content h3 {
     font-size: 32px;
@@ -307,6 +308,7 @@
   /* repairs */
   .repairs {
     min-height: 50vh;
+    margin-bottom: 10px;
   }
 
   .repairs .content {
@@ -326,14 +328,14 @@
 
   /* values */
   .values .content h3 {
-    font-size: 28px;
+    font-size: 31px;
   }
   .values .content .txt {
-    font-size: 14px;
+    font-size: 17px;
     padding: 0.5rem 0;
   }
   .values .content .group1 p {
-    font-size: 14px;
+    font-size: 18px;
   }
   .values .content .content-grid {
     grid-template-columns: repeat(1, 1fr);
@@ -342,6 +344,10 @@
   .values .content {
     margin-top: 0px;
   }
+  .values .content Img {
+    width: 60px;
+  }
+  
 
   /* energy */
   .energy .intro {
@@ -353,21 +359,24 @@
   .energy .intro p {
     font-size: 14px;
   }
+  .energy .intro .Img {
+    width: 56px;
+  }
 
   /* testimonial */
   .testimonial-card h3 {
-    font-size: 14px;
+    font-size: 17px;
     margin-bottom: 25px;
   }
   .testimonial-card p {
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 25px;
   }
   .author-info h4 {
-    font-size: 12px;
+    font-size: 15px;
   }
   .author-info p {
-    font-size: 12px;
+    font-size: 14px;
   }
   .testimonial-flex {
     align-items: center;
@@ -378,7 +387,7 @@
     margin-top: 14px;
   }
   .testimonial-text p {
-    font-size: 14px;
+    font-size: 17px;
   }
   .testimonial .content {
     gap: 20px;
@@ -386,6 +395,7 @@
   }
   .testimonial {
     margin-top: 0px;
+    padding: 16px;
   }
 
   /* Footer */
@@ -409,8 +419,8 @@
   .email-input {
     font-size: 14px;
   }
-  .footer-terms{
-  margin-bottom: 20px;
+  .footer-terms {
+    margin-bottom: 20px;
   }
   .subscribe-button {
     padding: 8px 15px;
@@ -448,7 +458,7 @@
 
   /*testimonial */
   .testimonial-text h2 {
-    font-size: 25px;
+    font-size: 27px;
     margin-bottom: 12px;
     margin-top: 12px;
   }
@@ -467,9 +477,16 @@
     width: 5px;
     height: 5px;
   }
+  .energy .intro {
+    width: 100%;
+    grid-column: span 2;
+  }
 }
 
 @media (max-width: 420px) {
+  section {
+    padding: 2rem 5%;
+  }
   /* hero */
   .hero .content,
   .power .content {
@@ -527,16 +544,22 @@
   .values .content .group1 p {
     font-size: 12px;
   }
+ 
 
   /* energy */
   .energy .intro h1 {
-    font-size: 28px;
+    font-size: 24px;
+    margin-bottom: 17px;
+    margin-top: 17px;
   }
   .energy .intro p {
-    font-size: 12px;
+    font-size: 13px;
   }
   .energy .card a {
     font-size: 14px;
+  }
+  .energy .card {
+    padding: 10px;
   }
 
   /*testimonial */
@@ -557,6 +580,9 @@
   .testimonial-card h3 {
     font-size: 12px;
   }
+  .testimonial .Img {
+    width: 50px;
+  }
 
   /* Footer */
   .footer {
@@ -572,7 +598,7 @@
   .footer-right p {
     font-size: 14px;
   }
- 
+
   .email-input {
     font-size: 12px;
     padding: 8px 12px;
@@ -596,6 +622,10 @@
   .solar .content .grid1 {
     padding-right: 10px;
     padding-left: 10px;
+  }
+  .values .content .group1 h2 {
+    font-size: 22px;
+    margin-top: 10px;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
